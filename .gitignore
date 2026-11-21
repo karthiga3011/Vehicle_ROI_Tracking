@@ -1,0 +1,24 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Local build
+build/
+*.obj
+*.exe
+*.pdb
+*.ilk
+
+# Large / regenerated
+models/*.pt
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vs/
+.idea/
+*.user
+
+# Keep these (do not ignore):
+# input/, models/yolov8n.onnx, output/result.mp4, src/, docs/, Dockerfile

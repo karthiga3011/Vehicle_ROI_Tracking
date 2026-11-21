@@ -1,0 +1,9 @@
+venv/
+build/
+output/
+.git/
+**/__pycache__/
+*.pyc
+models/*.pt
+export_model.py
+test_onnx.py
